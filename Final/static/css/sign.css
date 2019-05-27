@@ -1,0 +1,31 @@
+button {
+	background-color: black; /* Green */
+	border: none;
+	color: white;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transform: translate(10%);
+	cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+	font-size:30px;
+}
+
+form {
+/* set width in form, not fieldset (still takes up more room w/ fieldset width */
+	font:100% verdana,arial,sans-serif;
+	font-size:24px;
+	margin: auto;
+	padding: 0;
+	min-width: 400px;
+	max-width: 1000px;
+	width: 960px; 
+	position:absolute; height:360px;
+	top:0; bottom:0; left:0; right:0;
+
+}
