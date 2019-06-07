@@ -13,5 +13,6 @@ class person_informationAdmin(admin.ModelAdmin):
     list_display = ('name', 'ID_number', 'place', 'waiting_time')
 #admin.site.register(Restaurant,RestaurantAdmin)
 #admin.site.register(Food, FoodAdmin)
+####
 admin.site.register(person_information, person_informationAdmin)
 admin.site.register(parameter, parameterAdmin)
